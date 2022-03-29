@@ -2,7 +2,7 @@ S_DIR		= ./srcs
 
 SRCS_FILES	=
 SRCS_FILES1	= main.cpp
-SRCS_FILES2	= main2.cpp
+SRCS_FILES2	= my_test.cpp
 
 SRCS1		= $(addprefix $(S_DIR)/, $(SRCS_FILES)) $(SRCS_FILES1)
 SRCS2		= $(addprefix $(S_DIR)/, $(SRCS_FILES)) $(SRCS_FILES2)
